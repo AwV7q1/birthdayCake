@@ -19,6 +19,7 @@
   "homepage": "https://github.com/AwV7q1/birthdayCake#readme",
   "dependencies": {
     "gh-pages": "^4.0.0",
+    "parcel": "^2.8.0",
     "three": "^0.146.0"
   }
 }
