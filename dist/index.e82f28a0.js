@@ -634,7 +634,7 @@ function render() {
     renderer.render(scene, camera);
 }
 
-},{"three":"aTKdN","three/examples/jsm/loaders/GLTFLoader.js":"dpK3T","three/examples/jsm/loaders/DRACOLoader":"gAe88","30f8739ab0fa546d":"4XC9m","9c71df772abf2b4e":"e7VOr","30d3760da1668224":"8w6IM"}],"aTKdN":[function(require,module,exports) {
+},{"three":"ktPTu","three/examples/jsm/loaders/GLTFLoader.js":"dVRsF","three/examples/jsm/loaders/DRACOLoader":"lkdU4","30f8739ab0fa546d":"4XC9m","9c71df772abf2b4e":"e7VOr","30d3760da1668224":"8w6IM"}],"ktPTu":[function(require,module,exports) {
 /**
  * @license
  * Copyright 2010-2022 Three.js Authors
@@ -29839,7 +29839,7 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"dpK3T":[function(require,module,exports) {
+},{}],"dVRsF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "GLTFLoader", ()=>GLTFLoader);
@@ -32278,7 +32278,7 @@ function buildNodeHierarchy(nodeId, parentObject, json, parser) {
     return newGeometry;
 }
 
-},{"three":"aTKdN","@parcel/transformer-js/src/esmodule-helpers.js":"3mU77"}],"gAe88":[function(require,module,exports) {
+},{"three":"ktPTu","@parcel/transformer-js/src/esmodule-helpers.js":"3mU77"}],"lkdU4":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "DRACOLoader", ()=>DRACOLoader);
@@ -32627,7 +32627,7 @@ class DRACOLoader extends (0, _three.Loader) {
     }
 }
 
-},{"three":"aTKdN","@parcel/transformer-js/src/esmodule-helpers.js":"3mU77"}],"4XC9m":[function(require,module,exports) {
+},{"three":"ktPTu","@parcel/transformer-js/src/esmodule-helpers.js":"3mU77"}],"4XC9m":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("2MSMO") + "cake19.5c5293e2.glb" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"40F8u"}],"40F8u":[function(require,module,exports) {
