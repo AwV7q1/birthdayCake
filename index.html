@@ -6,26 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>body {
-  margin: 0;
-  padding: 0;
-}
-
-</style>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            /* background-color: #bfe3dd; */
+        }
+    </style>
 </head>
 
 <body>
     <div id="container"></div>
-    <audio src="/songchild.e5b74d08.mp3"></audio>
-    <script src="/index.03dd8df5.js" defer=""></script>
-    <script>window.addEventListener("DOMContentLoaded", (event)=>{
-    const audio = document.querySelector("audio");
-    audio.volume = 0.2;
-    audio.play();
-    audio.loop = true;
-});
-
-</script>
+    <audio src="./assets/songchild.mp3"></audio>
+    <script src="./js//script.js" type="module"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", event => {
+            const audio = document.querySelector("audio");
+            audio.volume = 0.2;
+            audio.play();
+            audio.loop = true;
+        });
+    </script>
 </body>
 
 </html>
